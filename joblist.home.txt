@@ -1,0 +1,5 @@
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "file:///C:\Users\Ospite\Desktop\lanschool files\numworks\simulator.html"
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "https://squareroot21414.altervista.org/moodle/calendar/view.php?view=month"
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "https://getomega.dev/ide/editor"
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "https://my.numworks.com/"
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "https://www.numworks.com/it/simulatore/"
