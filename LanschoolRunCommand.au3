@@ -4,8 +4,8 @@
 
 	Author:  This is Copyrighted by TWINGSISTEER
 	under Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) 2019
-	Script Function: launcher for lanschoo;.
-	Put joblist.txt where this file is. Liens in ths file are passed as commands.
+	Script Function: launcher for lanschool;.
+	Put xxx.txt where this file xxx.exe is. Name xxx.exe this script. Lines in this file (xxx.txt) are executed as shell commands.
 
 #ce ----------------------------------------------------------------------------
 #include <FileConstants.au3>
@@ -13,9 +13,10 @@
 #include <WinAPIFiles.au3>
 #ce
 ; Script Start
-$file=FileOpen (@ScriptDir & "\joblist.txt" )
+$fname = StringReplace ( @scriptname, ".exe", ".txt" , -1 ,  $STR_NOCASESENSE )
+$file=FileOpen (@ScriptDir & "\" &  $fname)
 If $file = -1 Then
-    MsgBox(0, "Error", "Unable to open file joblist.txt")
+    MsgBox(0, "Error", "Unable to open file "&  @ScriptDir & "\" &  $fname)
     Exit
 EndIf
 
